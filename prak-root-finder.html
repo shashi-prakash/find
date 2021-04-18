@@ -1,0 +1,87 @@
+<html> 
+<head> 
+<title>Root Finder </title> 
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <link rel="stylesheet" href="root.css">
+ <script src="root.js"></script>
+</head> 
+
+ 
+
+<body> 
+     
+	
+	
+ 
+<div class="card text-center text-white bg-info">
+  <div class="card-header mt-4 mb-4 bg-warning ">
+    <i class="fa fa-calculator mt-4 mb-4 " style="color:white; font-size:2rem"> ROOT FINDER</i>
+  </div>
+</div> <br>
+<!-- <div class="row card col-md-12 text-center mt-4" style="width: 40rem;margin-left: 30%;justify-content: center;">
+  <div class="card-body mt-4 mb-4">
+    
+  </div>  -->
+
+<!-- </div> -->
+<div class="card text-center mt-4 bg-info" id="card1" >
+
+  <div class="card-header bg-warning">
+     
+  </div>
+  <div class="card-body">
+
+    <form>  
+      <div class="form-group mx-sm-3 "> 
+        <input type="number" class="form-control"  id="number" name="number" placeholder="Please Enter Number" autocomplete="off">
+      </div>
+      <div class="row">
+     
+    <h2  style=" color: rgb(243, 247, 244);margin-left:2.2rem" id="get_value">  </h2>
+    <h2 style="color:rgb(238, 14, 51);margin-left:1.9rem" id="get_error">  </h2>
+    
+    
+    </div> 
+    
+     
+    <button type="button" class="btn btn-outline-warning mr-2 mt-2 mb-4" value="cube" onclick="getsquare() ">Square Root</button> 
+    <button type="button" class="btn btn-outline-warning mt-2 mb-4 mr-2" value="square" onclick="getcube()">Cube Root</button> 
+    <button type="button" class="btn btn-outline-warning mt-2 mb-4 mr-2" value="square" onclick="reset()">Reset</button> 
+     
+    </form> 
+  
+  </div>
+  <div class="card-footer text-muted bg-warning">
+    
+  </div>
+</div>
+<style>
+  #card1 {
+        width: 60vw;
+        height: 60vh;
+        
+        margin: 0 auto; /* Added */
+        float: none; /* Added */
+        margin-bottom: 15px; /* Added */
+}
+.card-body{
+  padding: 6rem;
+}
+</style>
+    
+ 
+  
+
+
+</body> 
+
+</html>
+
+ 

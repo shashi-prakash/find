@@ -1,0 +1,16 @@
+#number {
+  font-size: 1.3rem;
+  color: rgb(243, 20, 169);
+  margin-top: 3vh;
+}
+#card1 {
+  width: 60vw;
+  height: 60vh;
+
+  margin: 0 auto; /* Added */
+  float: none; /* Added */
+  margin-bottom: 10px; /* Added */
+}
+.card-body {
+  padding: 7rem;
+}
